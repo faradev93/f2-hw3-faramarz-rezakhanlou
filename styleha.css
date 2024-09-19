@@ -58,7 +58,7 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-div div p {
+p {
   top: 9px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -185,12 +185,81 @@ li {
   border: 1px solid #a7a7a7;
   border-radius: 20%;
 }
-.gp3{
+.gp3 {
   width: 77px;
   height: 45px;
   top: 75px;
 }
-.green{
-  color: #00FF00;
+.green {
+  color: #00ff00;
+}
 
+.frame {
+  position: relative;
+  padding: 8px;
+  width: 527px;
+  height: 366px;
+  top: 369px;
+  background-color: #00ffff;
+}
+.header {
+  position: absolute;
+  background-color: white;
+  width: 511px;
+  height: 43px;
+  border-radius: 12px;
+  margin: 8px;
+  left: 2px;
+}
+.headertext {
+  text-align: center;
+  justify-content: center;
+}
+.asideframe {
+  position: absolute;
+  background-color: white;
+  width: 122.96px;
+  height: 207px;
+  top: 69px;
+  left: 8px;
+  padding-top: 25px;
+  border-radius: 12px;
+  text-align: center;
+  justify-content: center;
+}
+a {
+  display: block;
+  font-size: 12px;
+}
+.point {
+}
+.frame .asideframe ul li {
+  margin: 15px;
+}
+.main2 {
+  position: absolute;
+  background-color: white;
+  width: 379px;
+  height: 207px;
+  top: 69px;
+  left: 139px;
+  padding-top: 25px;
+  border-radius: 12px;
+  text-align: center;
+  justify-content: center;
+}
+.maintext {
+  padding-top: 65px;
+}
+.foot{
+  position: absolute;
+  background-color: white;
+  width: 511px;
+  height: 43px;
+  top: 310px;
+  left: 8px;
+  padding-top: 25px;
+  border-radius: 12px;
+  text-align: center;
+  justify-content: center;
 }
